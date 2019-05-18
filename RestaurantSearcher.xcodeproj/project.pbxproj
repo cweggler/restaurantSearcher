@@ -14,6 +14,7 @@
 		46D45EDB228F91FA0079F095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D45ED9228F91FA0079F095 /* LaunchScreen.storyboard */; };
 		46D45EE6228F91FB0079F095 /* RestaurantSearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D45EE5228F91FB0079F095 /* RestaurantSearcherTests.swift */; };
 		46D45EF1228F91FB0079F095 /* RestaurantSearcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D45EF0228F91FB0079F095 /* RestaurantSearcherUITests.swift */; };
+		46D45EFF228FA2240079F095 /* UITableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D45EFE228FA2240079F095 /* UITableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		46D45EEC228F91FB0079F095 /* RestaurantSearcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantSearcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D45EF0228F91FB0079F095 /* RestaurantSearcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearcherUITests.swift; sourceTree = "<group>"; };
 		46D45EF2228F91FB0079F095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D45EFE228FA2240079F095 /* UITableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				46D45ED0228F91F50079F095 /* AppDelegate.swift */,
 				46D45ED2228F91F50079F095 /* ViewController.swift */,
+				46D45EFE228FA2240079F095 /* UITableCell.swift */,
 				46D45ED4228F91F50079F095 /* Main.storyboard */,
 				46D45ED7228F91FA0079F095 /* Assets.xcassets */,
 				46D45ED9228F91FA0079F095 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D45ED3228F91F50079F095 /* ViewController.swift in Sources */,
+				46D45EFF228FA2240079F095 /* UITableCell.swift in Sources */,
 				46D45ED1228F91F50079F095 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
